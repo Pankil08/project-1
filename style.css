@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.upper_part {
+  height: 100%;
+  width: 100%;
+}
+
+.uheading {
+  padding: 3rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upara {
+  padding: 2rem;
+  padding: 2rem 5rem;
+  text-align: center;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uheading2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.panel1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+@media screen and (min-width: 640px) {
+  .panel1 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+.panel123 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+}
+
+@media screen and (min-width: 640px) {
+  .panel123 {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+}
+
+.number1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  border: 0.23rem solid black;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+.panel2 {
+  padding: 4rem;
+}
+
+.panel2 {
+  /*background-color: gray;*/
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  
+  gap: 3.2rem;
+}
+@media screen and (min-width: 640px) {
+  .panel2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/*Development*/
+.head_devlopment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.pp1 {
+  /*background-color: black;*/
+}
+
+
+
+/*Sales*/
+
+.salesteam {
+  /*background-color: aquamarine;*/
+}
+
+.sales_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2rem;
+  font-weight: 700;
+}
